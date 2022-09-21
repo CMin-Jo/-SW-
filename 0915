@@ -1,6 +1,6 @@
 0915
 수업시간중에 나온 문제
-~~~
+```
 1번
   a = "Life is too short, you need python"
 
@@ -14,4 +14,4 @@
     print("need")
   else:
     print("none")
-~~~
+```
