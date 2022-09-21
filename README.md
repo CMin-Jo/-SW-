@@ -83,3 +83,28 @@ for i in range(0,1000):
 
 print(sums)
 ```
+
+
+Lab3
+```
+1번
+print("Enter your game score : ", end = '')
+score = input()
+
+if int(score) >= 1000:
+    print("game_score = " + str(score))
+    print("당신은 고수입니다.")
+else:
+    print("game_score = " + str(score))
+```
+```
+2번
+print("Enter num_a : ", end = '')
+num_a = input()
+print("Enter num_b : ", end = '')
+num_b = input()
+
+print("num_a = " + str(num_a) + ", num_b = " + str(num_b))
+if num_a == num_b:
+    print("두 값이 일치합니다.")
+```
