@@ -58,3 +58,28 @@ for n in numbers:
 result_by_lh = [n*2 for n in numbers if n%2 == 1]
 print(result_by_lh)
 ```
+
+
+2022봄 문제1
+```
+for i in range(0,51,5):
+    Celsius = i
+    Fahrenheit = i * 9 / 5 + 32
+    print("섭씨 : " + str(Celsius) + ", 화씨 : "+ str(Fahrenheit))
+```
+
+문제2
+```
+a = 2*2//2
+b = 3//2*3
+print(a,b)
+```
+문제3
+```
+sums = 0
+for i in range(0,1000):
+    if i % 3 == 0 or i % 5 == 0:
+        sums += i
+
+print(sums)
+```
