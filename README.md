@@ -108,3 +108,150 @@ print("num_a = " + str(num_a) + ", num_b = " + str(num_b))
 if num_a == num_b:
     print("두 값이 일치합니다.")
 ```
+
+Lab2
+```
+1번
+print("정수를 입력하세요 : ", end = '')
+n = input()
+
+print(n)
+
+if int(n) % 2 == 0:
+    print( n +" 은(는) 짝수입니다.")
+```
+```
+2번
+print("정수를 입력하세요 : ", end = '')
+n = input()
+
+print(n)
+
+if int(n) > 0:
+    print( n +" 은(는) 자연수 입니다.")
+```
+
+Lab3
+```
+1번
+print("Enter your game score : ", end = '')
+score = input()
+
+if int(score) >= 1000:
+    print("game_score = " + str(score))
+    print("당신은 고수입니다.")
+else:
+    print("game_score = " + str(score))
+    print("입문자 입니다.")
+```
+```
+2번
+print("Enter num_a : ", end = '')
+num_a = input()
+print("Enter num_b : ", end = '')
+num_b = input()
+
+print("num_a = " + str(num_a) + ", num_b = " + str(num_b))
+if num_a == num_b:
+    print("두 값이 일치합니다.")
+else:
+    print("두 값이 일치하지 않습니다.")
+```
+```
+3번
+print("당신은 성인인가요(성인이면 1, 미성년이면 0) : ", end = '')
+is_adult = input()
+
+if int(is_adult) == 1:
+    print("결혼을 하셨나요(기혼이면 1, 미혼이면 0) : ", end='')
+    is_married = input()
+
+    if int(is_married) == 1:
+        print("당신은 결혼한 성인입니다.")
+    else:
+        print("당신은 결혼하지 않은 성인입니다.")
+```
+
+Lab4
+```
+1번
+print("num = ", end = '')
+num = input()
+if int(num) > 1 and int(num) < 10:
+    print("True")
+```
+```
+2번
+print("age = ", end = '')
+age = input()
+print("age = " + age)
+if int(age) > 10 and int(age) < 19:
+    print("청소년 입니다.")
+```
+
+Lab5
+```
+print("자동차의 속도를 입력하세요(단위 : km/h): ", end = '')
+speed = input()
+
+if int(speed) >= 100:
+    print("고속")
+elif int(speed) < 100 and int(speed) >= 60:
+    print("중속")
+else:
+    print("저속")
+```
+Lab6
+```
+1번
+for i in range(5):
+    print("Hello, Python!")
+```
+```
+2번
+for i in range(5):
+    print(i)
+```
+
+Lab7
+```
+list =[]
+odd = []
+even = []
+mi = []
+for i in range(101):
+    list.append(i)
+    
+for i in range(101):
+    if i%2 == 0:
+        even.append(i)
+
+for i in range(101):
+    if i%2 == 1:
+        odd.append(i)
+        
+
+for i in range(-100,0):
+    mi.append(i)
+```
+Lab 8
+```
+sum = 0
+even = 0
+odd = 0
+for i in range(1,100):
+    sum += i
+    
+for i in range(0,100,2):
+    even += i
+    
+for i in range(1,100,2):
+    odd += i
+```
+Lab9
+```
+for i in range(7,0,-1):
+    for j in range(i):
+        print(" ", end='')
+    print("#")
+```
